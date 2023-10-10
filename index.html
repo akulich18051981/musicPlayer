@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+  <title>Audio Player</title>
+</head>
+
+<body>
+  <div class="global-container">
+    <div class="modal__wrapperr">
+      <div class="modal__windowregistration">
+        <form class="modal__content">
+          <div class="modal__containerregistration">
+            <h1 class="modal__title">Авторизация</h1>
+            <label for="modalemail">Email</label>
+            <input class="modal__email" type="email" placeholder="Введите вашу почту" name="registrlogin_btn" />
+            <label for="modalpsw">Пароль</label>
+            <input class="modal__password" type="password" placeholder="Введите пароль" name="modalpsw" />
+            <div class="modal__clearfix">
+              <button type="button" class="modal__cancelbtn">Войти</button>
+              <button type="button" class="modal__signup">Регистрация</button>
+            </div>
+          </div>
+        </form>
+        <form class="registr__form none">
+          <h2 class="registr__form-title">Регистрация</h2>
+          <div>
+            <input type="text" placeholder="Имя пользователя" id="registUserName" class="registr__form-inpt" />
+          </div>
+          <div>
+            <input type="text" placeholder="Введите вашу почту" id="registEmail" class="registr__form-inpt" />
+          </div>
+          <div>
+            <input type="password" placeholder="Введите пароль" id="registPassword" class="registr__form-inpt" />
+          </div>
+          <div>
+            <input type="password" placeholder="Введите повторно пароль" id="registCopyPassword"
+              class="registr__form-inpt" />
+          </div>
+          <div class="wrapper__btn">
+            <button type="button" id="registr_btn" class="btn">
+              Зарегистрироваться
+            </button>
+            <button type="button" id="registrExit_btn" class="btn">
+              Выйти
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="modal-window">
+      <div class="modal-window__content">
+        <h1 class="modal-window__title">SPOTIFY - ENJOYING MUSIC BAR</h1>
+        <h2 class="modal-window__text">
+          Слушай в приложении и наслаждайся
+        </h2>
+        <button class="modal-window__resume-btn">Далее</button>
+      </div>
+      <p class="modal-window__anime">Музыка живет в каждом из нас . . .</p>
+    </div>
+    <div class="audio-player-blok">
+      <div class="audio-player-blok__menu">
+        <div class="audio-player-blok__menu-icons">
+        </div>
+        <button class="audio-player-blok__category-btn audio-player-blok__category-btn_playlist" type="button">
+          Плейлисты
+        </button>
+        <button class="audio-player-blok__category-btn audio-player-blok__category-btn_tracks" type="button">
+          Треки
+        </button>
+      </div>
+      <div class="audio-player-blok__menu-icons">
+        <button class="audio-player-blok__btn">Выйти</button>
+      </div>
+    </div>
+    <div class="audio-player-blok__media">
+      <div class="audio-player-blok__general"></div>
+      <div class="audio-player-blok__general-track hidden"></div>
+      <iframe class="iframe-block__playlist hidden" style="border-radius: 12px"
+        src="https://open.spotify.com/embed/playlist/37i9dQZF1DWSqmBTGDYngZ?utm_source=generator" width="100%"
+        height="252" frameborder="0" allowfullscreen=""
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </div>
+  </div>
+  </div>
+  </div>
+  <script type="module" src="./index.js"></script>
+</body>
+
+</html>

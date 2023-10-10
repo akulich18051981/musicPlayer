@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "nameUser": "oksana",
+      "emailUser": "oksana@gmail.com",
+      "passUser": "555",
+      "id": 1
+    },
+    {
+      "nameUser": "Maria",
+      "emailUser": "masha@mail.ru",
+      "passUser": "123",
+      "id": 2
+    },
+    {
+      "nameUser": "Olga",
+      "emailUser": "olga@mail.ru",
+      "passUser": "111",
+      "id": 3
+    },
+    {
+      "nameUser": "Olga",
+      "emailUser": "akulicholga81@gmail.com",
+      "passUser": "semeyka",
+      "id": 4
+    },
+    {
+      "nameUser": "IRINA",
+      "emailUser": "irina@mail.ru",
+      "passUser": "11111",
+      "id": 5
+    },
+    {
+      "nameUser": "Sergei",
+      "emailUser": "sergei@gmail.com",
+      "passUser": "22222",
+      "id": 6
+    },
+    {
+      "nameUser": "надежда",
+      "emailUser": "надежда",
+      "passUser": "надежда",
+      "id": 7
+    }
+  ]
+}
